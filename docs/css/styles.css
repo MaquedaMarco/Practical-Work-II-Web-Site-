@@ -8,10 +8,10 @@ box-sizing: border-box;
 font-family: Lato, Helvetica, sans-serif;
 }
 body{
-background: #f5f6fa;
+background: rgb(245,245,245);
 }
 .menu .sidebar{
-background: #738ADB; position: fixed;
+background: rgb(90,101,234); position: fixed;
 top: 0;
 left: 0;
 width: 225px;
@@ -35,9 +35,276 @@ margin: 10px 0 5px;
 }
 .menu .sidebar ul li a{
 display: block;
-padding: 13px 30px; border-bottom: 1px solid #10558d; color: rgb(241, 237, 237); font-size: 16px;
+padding: 13px 30px; border-bottom: 2px solid rgb(201,203,235); color: rgb(241, 237, 237); font-size: 16px;
 position: relative; }
 .menu .sidebar ul li a .icon{ color: #dee4ec;
 width: 30px;
 display: inline-block;
+}
+
+.menu .sidebar ul li a:hover,
+.menu .sidebar ul li a.active{
+color: rgb(255, 255, 255);
+background: rgb(73, 82, 189);
+}
+.menu .sidebar ul li a:hover .icon,
+.menu .sidebar ul li a.active .icon{
+color: rgb(255, 255, 255);
+}
+.menu .sidebar ul li a:hover:before,
+.menu .sidebar ul li a.active:before{
+display: block;
+}
+#home{
+    border-right: 2px solid rgb(5, 41, 104);    /*Esto no Fuciona*/
+}
+#Banner_Index{  /*=== Index CSS ===*/
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(90,101,234) rgb(90,101,234) rgb(73, 82, 189) rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Index{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 763px;
+    background: rgb(90,101,234);
+}
+
+
+#Banner_Degree{  /*=== Degree CSS ===*/
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(90,101,234) rgb(90,101,234) rgb(73, 82, 189) rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#icon_Degree{
+    color: #dee4ec;
+}
+#item_Degree{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*Esto no funciona*/
+    font-size: 70; /*ENF*/
+}
+#Content_Degree_Box1{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Degree_Box2{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Degree_Box3{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Degree_Box4{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Degree_Box5{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Degree_Box6{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+
+
+#Banner_Contact{  /*=== Contact CSS ===*/
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(90,101,234) rgb(90,101,234) rgb(73, 82, 189) rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#icon_Contact{
+    color: #dee4ec;
+}
+#item_Contact{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*Esto no funciona*/
+    font-size: 70; /*ENF*/
+}
+#Content_Contact_Box1{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 320px;
+    background: rgb(90,101,234);
+}
+#Content_Contact_Box2{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 580px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Contact_Box3{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 580px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Contact_Box4{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 580px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Contact_Box5{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_Contact_Box6{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+
+
+#Banner_Net{  /*=== Net CSS ===*/
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(90,101,234) rgb(90,101,234) rgb(73, 82, 189) rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#icon_Net{
+    color: #dee4ec;
+}
+#item_Net{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*Esto no funciona*/
+    font-size: 70; /*ENF*/
+}
+#Content_Net_Box1{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 225px;
+    background: rgb(90,101,234);
+}
+#Content_Net_Box2{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 225px;
+    background: rgb(90,101,234);
+}
+#Content_Net_Box3{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 225px;
+    background: rgb(90,101,234);
 }
