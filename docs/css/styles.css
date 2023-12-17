@@ -36,7 +36,13 @@ margin: 10px 0 5px;
 .menu .sidebar ul li a{
 display: block;
 padding: 13px 30px; border-bottom: 2px solid rgb(201,203,235); color: rgb(241, 237, 237); font-size: 16px;
-position: relative; }
+position: relative; 
+}
+#Home,#Volver{
+margin-top: 20px;   /*Why doesn't it apply to the first child only?*/
+border-top: 2px solid rgb(201,203,235);
+}
+
 .menu .sidebar ul li a .icon{ color: #dee4ec;
 width: 30px;
 display: inline-block;
@@ -58,7 +64,9 @@ display: block;
 #home{
     border-right: 2px solid rgb(5, 41, 104);    /*Esto no Fuciona*/
 }
-#Banner_Index{  /*=== Index CSS ===*/
+
+
+#Banner_Index{  /*================================================== Index CSS ==================================================*/
     display: block;
     border-radius: 15px;
     border-style: solid;
@@ -80,9 +88,14 @@ display: block;
     height: 763px;
     background: rgb(90,101,234);
 }
-
-
-#Banner_Degree{  /*=== Degree CSS ===*/
+#Content_Index p{
+    color: #dee4ec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    padding: 40px;
+}
+#Banner_About{  /*=== About CSS ===*/
     display: block;
     border-radius: 15px;
     border-style: solid;
@@ -93,26 +106,53 @@ display: block;
     height: 100px;
     background: rgb(90,101,234);
 }
-#icon_Degree{
+#icon_About{
     color: #dee4ec;
 }
-#item_Degree{
+#item_About{
     color: #dee4ec;
     font-family: "Times New Roman", Times, serif; /*Esto no funciona*/
     font-size: 70; /*ENF*/
 }
-#Content_Degree_Box1{
+#Content_About_Box1{
     display: block;
     border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     border-color:rgb(73, 82, 189);
-    margin: 10px 242px; /*225px sidebar*/
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 1600px;
+    background: rgb(90,101,234);
+}
+
+
+#Banner_Degree{  /*================================================== Degree CSS ==================================================*/
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(90,101,234) rgb(90,101,234) rgb(73, 82, 189) rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
     width: 1180px;
     height: 100px;
     background: rgb(90,101,234);
 }
-#Content_Degree_Box2{
+#item_Degree p{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*ENF*/
+    font-size: 70px;
+    padding-left: 492px;
+}
+#Content_Degree p{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*ENF*/
+    font-size: 28px;
+    text-align: center;
+    padding-top: 28px;
+    padding-left: 40px;
+}
+#Content_Degree_Title1,#Content_Degree_Title2,#Content_Degree_Title3,#Content_Degree_Title4,#Content_Degree_Title5{
     display: block;
     border-radius: 15px;
     border-style: solid;
@@ -120,7 +160,22 @@ display: block;
     border-color:rgb(73, 82, 189);
     margin: 10px 242px; /*225px sidebar*/
     width: 1180px;
-    height: 100px;
+    height: 35px;
+    background: rgb(90,101,234);
+}
+#Content_Degree_Title1 p,#Content_Degree_Title2 p,#Content_Degree_Title3 p,#Content_Degree_Title4 p,#Content_Degree_Title5 p{
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+#Content_Degree_Box1, #Content_Degree_Box2, #Content_Degree_Box4, #Content_Degree_Box5, #Content_Degree_Box6, #Content_Degree_Box7, #Content_Degree_Box8, #Content_Degree_Box9, #Content_Degree_Box10, #Content_Degree_Box11, #Content_Degree_Box12, #Content_Degree_Box13, #Content_Degree_Box14,#Content_Degree_Box15,#Content_Degree_Box16,#Content_Degree_Box17,#Content_Degree_Box18,#Content_Degree_Box19,#Content_Degree_Box20,#Content_Degree_Box21,#Content_Degree_Box22,#Content_Degree_Box23,#Content_Degree_Box24,#Content_Degree_Box25,#Content_Degree_Box26,#Content_Degree_Box27,#Content_Degree_Box28,#Content_Degree_Box29,#Content_Degree_Box30,#Content_Degree_Box31,#Content_Degree_Box32,#Content_Degree_Box33,#Content_Degree_Box34,#Content_Degree_Box35,#Content_Degree_Box36,#Content_Degree_Box37,#Content_Degree_Box38,#Content_Degree_Box39,#Content_Degree_Box40,#Content_Degree_Box41,#Content_Degree_Box42,#Content_Degree_Box43,#Content_Degree_Box44,#Content_Degree_Box45,#Content_Degree_Box46,#Content_Degree_Box47,#Content_Degree_Box48,#Content_Degree_Box49,#Content_Degree_Box50,#Content_Degree_Box51,#Content_Degree_Box52,#Content_Degree_Box53,#Content_Degree_Box54,#Content_Degree_Box55,#Content_Degree_Box56,#Content_Degree_Box57,#Content_Degree_Box58,#Content_Degree_Box59,#Content_Degree_Box60,#Content_Degree_Box61,#Content_Degree_Box62,#Content_Degree_Box63,#Content_Degree_Box64,#Content_Degree_Box65,#Content_Degree_Box66{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 80px;
     background: rgb(90,101,234);
 }
 #Content_Degree_Box3{
@@ -134,42 +189,30 @@ display: block;
     height: 100px;
     background: rgb(90,101,234);
 }
-#Content_Degree_Box4{
-    display: block;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 5px;
-    border-color:rgb(73, 82, 189);
-    margin: 10px 242px; /*225px sidebar*/
-    width: 1180px;
-    height: 100px;
-    background: rgb(90,101,234);
+#Content_Degree_Box3 div{
+    float: left;
+} 
+#Content_Degree_Box3 p{
+    padding-left: 375px;
+}   
+#Content_Degree_Box3 button{
+    float: right;
+    background-color: rgb(90,101,234);
+    color: rgb(245,245,245);
+    font-size: 15px;
+    padding: 35px 35px;
+    border: 4px solid rgb(73, 82, 189);
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
 }
-#Content_Degree_Box5{
-    display: block;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 5px;
-    border-color:rgb(73, 82, 189);
-    margin: 10px 242px; /*225px sidebar*/
-    width: 1180px;
-    height: 100px;
-    background: rgb(90,101,234);
-}
-#Content_Degree_Box6{
-    display: block;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 5px;
-    border-color:rgb(73, 82, 189);
-    margin: 10px 242px; /*225px sidebar*/
-    width: 1180px;
-    height: 100px;
-    background: rgb(90,101,234);
-}
-
-
-#Banner_Contact{  /*=== Contact CSS ===*/
+#Content_Degree_Box3 button:hover{
+    background-color: rgb(73, 82, 189);
+    border-color: rgb(90,101,234);
+}    
+#Banner_FCE{  /*================================================== FCE CSS ==================================================*/
     display: block;
     border-radius: 15px;
     border-style: solid;
@@ -180,83 +223,193 @@ display: block;
     height: 100px;
     background: rgb(90,101,234);
 }
-#icon_Contact{
+#item_FCE p{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*ENF*/
+    font-size: 70px;
+    padding-left: 435px;
+}
+#Content_FCE{
     color: #dee4ec;
 }
-#item_Contact{
-    color: #dee4ec;
-    font-family: "Times New Roman", Times, serif; /*Esto no funciona*/
-    font-size: 70; /*ENF*/
-}
-#Content_Contact_Box1{
+#Content_FCE_Title1{
     display: block;
     border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     border-color:rgb(73, 82, 189);
     margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 35px;
+    background: rgb(90,101,234);
+}
+#Content_FCE_Title1 p{
+    color: #dee4ec;
+    text-align: center;
+    font-size: 22px;
+}
+#Content_FCE_box1,#Content_FCE_box2,#Content_FCE_box3{
+    display: block;
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-left: 242px;
+    margin-bottom: 10px;
+    width: 1180px;
+    height: 700px;
+    background: rgb(90,101,234);
+    padding: 50px;
+}
+#Content_FCE_box1{
+    height: 220px;
+}
+#Content_FCE_box2{
+    height: 450px;
+}
+#Content_FCE_box3{
+    height: 1100px;
+}
+#Content_FCE_box1 p{
+    color: #dee4ec;
+    text-align: justify;
+}
+#Content_FCE_box2 li,#Content_FCE_box3 li{
+padding-left: 35px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: left;
+}
+
+#Banner_Contact{  /*================================================== Contact CSS ==================================================*/
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(90,101,234) rgb(90,101,234) rgb(73, 82, 189) rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#item_Contact p{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*ENF*/
+    font-size: 70px;
+    padding-left: 400px;
+}
+#Content_Contact_Box1{
+    display: block;
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-left: 242px; /*225px sidebar*/
+    margin-bottom: 10px;
     width: 1180px;
     height: 320px;
     background: rgb(90,101,234);
 }
+#Content_Contact_Box1 img{
+    width: 521px;
+    height: 300;
+    margin-top: 5px;
+    margin-left: 7px;
+    border-radius: 40px;
+    float: left;
+}
+#Content_Contact_Box1 p{    /*ENF*/
+    color: #dee4ec;
+    font-size: 22px;
+    text-align: justify;
+    padding: 50px;
+    padding-left: 600px;
+}
+#Content_Contact_Box1_p{    /*ENF*/
+}
 #Content_Contact_Box2{
     display: block;
+    float: right;
     border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     border-color:rgb(73, 82, 189);
-    margin: 10px 242px; /*225px sidebar*/
-    width: 580px;
-    height: 100px;
+    margin-right: 17px; /*225px sidebar*/
+    margin-bottom: 10px;
+    width: 582px;
+    height: 150px;
     background: rgb(90,101,234);
+}
+#Content_Contact_Box2 div{
+    color: #dee4ec;
+}
+#Content_Contact_Box2 i,#Content_Contact_Box3 i,#Content_Contact_Box4 i,#Content_Contact_Box5 i{
+    float: left;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+#Content_Contact_Box2 p,#Content_Contact_Box3 p,#Content_Contact_Box4 p,#Content_Contact_Box5 p{
+    font-size: 20px;
+    float: right;
+    padding-top: 60px;
+    padding-right: 90px;
+    text-align: center;
+}
+#Content_Contact_Box3 p{
+    padding-right: 175px;
 }
 #Content_Contact_Box3{
     display: block;
+    float: left;
     border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     border-color:rgb(73, 82, 189);
-    margin: 10px 242px; /*225px sidebar*/
-    width: 580px;
-    height: 100px;
+    margin-left: 242px; /*225px sidebar*/
+    margin-bottom: 10px;
+    width: 582px;
+    height: 150px;
     background: rgb(90,101,234);
+}
+#Content_Contact_Box3 div{
+    color: #dee4ec;
 }
 #Content_Contact_Box4{
-    display: block;
+    display: inline-block;
     border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     border-color:rgb(73, 82, 189);
-    margin: 10px 242px; /*225px sidebar*/
-    width: 580px;
-    height: 100px;
+    margin-left: 242px; /*225px sidebar*/
+    margin-bottom: 10px;
+    width: 582px;
+    height: 150px;
     background: rgb(90,101,234);
 }
+#Content_Contact_Box4 div{
+    color: #dee4ec;
+} 
 #Content_Contact_Box5{
     display: block;
+    float: right;
     border-radius: 15px;
     border-style: solid;
     border-width: 5px;
     border-color:rgb(73, 82, 189);
-    margin: 10px 242px; /*225px sidebar*/
-    width: 1180px;
-    height: 100px;
+    margin-right: 17px; /*225px sidebar*/
+    margin-bottom: 10px;
+    width: 582px;
+    height: 150px;
     background: rgb(90,101,234);
 }
-#Content_Contact_Box6{
-    display: block;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 5px;
-    border-color:rgb(73, 82, 189);
-    margin: 10px 242px; /*225px sidebar*/
-    width: 1180px;
-    height: 100px;
-    background: rgb(90,101,234);
-}
+#Content_Contact_Box5 div{
+    color: #dee4ec;
+}  
 
 
-#Banner_Net{  /*=== Net CSS ===*/
+#Banner_Net{  /*================================================== Net CSS ==================================================*/
     display: block;
     border-radius: 15px;
     border-style: solid;
@@ -267,13 +420,16 @@ display: block;
     height: 100px;
     background: rgb(90,101,234);
 }
-#icon_Net{
-    color: #dee4ec;
-}
 #item_Net{
     color: #dee4ec;
-    font-family: "Times New Roman", Times, serif; /*Esto no funciona*/
+    font-family: "Times New Roman", Times, serif;
     font-size: 70; /*ENF*/
+}
+#item_Net p{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 70px;
+    padding-left: 466px;
 }
 #Content_Net_Box1{
     display: block;
@@ -283,8 +439,16 @@ display: block;
     border-color:rgb(73, 82, 189);
     margin: 17px 242px; /*225px sidebar*/
     width: 1180px;
-    height: 225px;
+    height: 243px;
     background: rgb(90,101,234);
+}
+#Content_Net_Box1 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 33px;
+    margin-left: 40px;
+    float: left;
 }
 #Content_Net_Box2{
     display: block;
@@ -294,8 +458,16 @@ display: block;
     border-color:rgb(73, 82, 189);
     margin: 17px 242px; /*225px sidebar*/
     width: 1180px;
-    height: 225px;
+    height: 243px;
     background: rgb(90,101,234);
+}
+#Content_Net_Box2 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 33px;
+    margin-left: 40px;
+    float: left;
 }
 #Content_Net_Box3{
     display: block;
@@ -305,6 +477,38 @@ display: block;
     border-color:rgb(73, 82, 189);
     margin: 17px 242px; /*225px sidebar*/
     width: 1180px;
-    height: 225px;
+    height: 243px;
     background: rgb(90,101,234);
+}
+#Content_Net_Box3 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 33px;
+    margin-left: 40px;
+    float: left;
+}
+#Content_Net_Box1 p{
+    float: right;
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*ENF*/
+    font-size: 23px;
+    margin-top: 100px;
+    margin-right: 120px;
+}
+#Content_Net_Box2 p{
+    float: right;
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*ENF*/
+    font-size: 23px;
+    margin-top: 100px;
+    margin-right: 190px;
+}
+#Content_Net_Box3 p{
+    float: right;
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*ENF*/
+    font-size: 23px;
+    margin-top: 100px;
+    margin-right: 257px;
 }
