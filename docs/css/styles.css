@@ -125,6 +125,316 @@ display: block;
     height: 1600px;
     background: rgb(90,101,234);
 }
+#Banner_About{  /*================================================== About Me CSS ==================================================*/
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(90,101,234) rgb(90,101,234) rgb(73, 82, 189) rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#item_About{
+    text-align: center;
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*Esto no funciona*/
+    font-size: 70px; /*ENF*/
+}
+#Content_About_Box1{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#Content_About_Box1 p{
+    color: #dee4ec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: left;
+    padding: 12px;
+}
+#Content_About_Box2{
+    display: block;
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-left: 242px;
+    margin-bottom: 10px;
+    width: 590px;
+    height: 300px;
+    background: rgb(90,101,234);
+    padding: 50px;
+}
+#Content_About_Box2 img{
+    height: 200px;
+    width: 400px;
+}
+#Content_About_Box3{
+    display: block;
+    float: right;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-bottom: 10px;
+    margin-right: 17px;
+    width: 573px;
+    height: 300px;
+    background: rgb(90,101,234);
+    padding: 50px;
+}
+#Content_About_Box3 img{
+    height: 200px;
+    width: 350px;
+}
+#Content_About_Box4{
+    float: left;
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 150px;
+    background: rgb(90,101,234);
+}
+#Content_About_Box4 p{
+    color: #dee4ec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: left;
+    padding: 12px;
+}
+#Content_About_Box5{
+    float: left;
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 200px;
+    background: rgb(90,101,234);
+}
+#Content_About_Box5 div{
+    color: #dee4ec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 12px;
+}
+#Content_About_Title2{
+float: left;
+    display: block;
+border-radius: 15px;
+border-style: solid;
+border-width: 5px;
+border-color:rgb(73, 82, 189);
+margin: 10px 242px; /*225px sidebar*/
+width: 1180px;
+height: 50px;
+background: rgb(90,101,234);
+}
+#Content_About_Title2 p{
+    color: #dee4ec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+}
+#Content_About_Box6{
+    float: left;
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 750px;
+    background: rgb(90,101,234);
+}
+#Content_About_Box6 img{
+    height: 600px;
+    width: 700px;
+    margin: 50px;
+    margin-left: 250px;
+}
+
+
+
+
+
+
+#Banner_Topic{  /*================================================== Topic CSS ==================================================*/
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(90,101,234) rgb(90,101,234) rgb(73, 82, 189) rgb(73, 82, 189);
+    margin: 17px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 100px;
+    background: rgb(90,101,234);
+}
+#item_Topic p{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*ENF*/
+    font-size: 70px;
+    padding-left: 492px;
+}
+#Content_Topic p{
+    color: #dee4ec;
+    font-family: "Times New Roman", Times, serif; /*ENF*/
+    font-size: 28px;
+    text-align: center;
+}
+
+#Content_Topic_Title1{
+    display: block;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin: 10px 242px; /*225px sidebar*/
+    width: 1180px;
+    height: 35px;
+    background: rgb(90,101,234);
+}
+#Content_Topic_Title1 p{
+    color: #dee4ec;
+    text-align: center;
+    font-size: 22px;
+}
+#Content_Topic_box1{
+    display: block;
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-left: 242px;
+    margin-bottom: 10px;
+    width: 1180px;
+    height: 530px;
+    background: rgb(90,101,234);
+    padding: 50px;
+}
+#Content_Topic_box1 p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+#Content_Topic_box2{
+    display: block;
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-left: 242px;
+    margin-bottom: 10px;
+    width: 590px;
+    height: 530px;
+    background: rgb(90,101,234);
+    padding: 50px;
+}
+#Content_Topic_box2 img{
+    height: 400px;
+    width: 500px;
+}
+#Content_Topic_box3{
+    display: block;
+    float: right;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-bottom: 10px;
+    margin-right: 17px;
+    width: 573px;
+    height: 530px;
+    background: rgb(90,101,234);
+    padding: 50px;
+}
+#Content_Topic_box3 p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+#Content_Topic_box4{
+    display: block;
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-left: 242px;
+    margin-bottom: 10px;
+    width: 590px;
+    height: 530px;
+    background: rgb(90,101,234);
+    padding: 50px;
+}
+#Content_Topic_box4 img{
+    height: 400px;
+    width: 500px;
+}
+#Content_Topic_box5{
+    display: block;
+    float: right;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-bottom: 10px;
+    margin-right: 17px;
+    width: 573px;
+    height: 530px;
+    background: rgb(90,101,234);
+    padding: 50px;
+}
+#Content_Topic_box5 p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+#Content_Topic_box6{
+    display: block;
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(73, 82, 189);
+    margin-left: 242px;
+    margin-bottom: 10px;
+    width: 1180px;
+    height: 250px;
+    background: rgb(90,101,234);
+    padding: 50px;
+    color: #dee4ec;
+}
+#Content_Topic_box6 p{
+    color: #dee4ec;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+
+
+
 
 
 #Banner_Degree{  /*================================================== Degree CSS ==================================================*/
